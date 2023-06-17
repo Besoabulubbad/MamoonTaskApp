@@ -1,0 +1,171 @@
+{
+  "formName": "Car Evaluation Form",
+  "questionGroups": [
+    {
+      "id": 12345,
+      "name": "Safety",
+      "questions": [
+        {
+          "id": 98765,
+          "text": "Is this car safe to drive?"
+        },
+        {
+          "id": 54321,
+          "text": "Are the airbags functional?"
+        },
+        {
+          "id": 24680,
+          "text": "Does the vehicle have anti-lock brakes?"
+        },
+        {
+          "id": 13579,
+          "text": "Is the seatbelt in good condition?"
+        }
+      ]
+    },
+    {
+      "id": 67890,
+      "name": "Performance",
+      "questions": [
+        {
+          "id": 11223,
+          "text": "Does the engine run smoothly?"
+        },
+        {
+          "id": 44556,
+          "text": "Is the acceleration responsive?"
+        },
+        {
+          "id": 77889,
+          "text": "Are there any unusual engine noises?"
+        }
+      ]
+    },
+    {
+      "id": 99999,
+      "name": "Comfort",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Is the air conditioning working properly?"
+        },
+        {
+          "id": 13579,
+          "text": "Are the seats comfortable?"
+        },
+        {
+          "id": 98765,
+          "text": "Is the cabin quiet during driving?"
+        }
+      ]
+    },
+    {
+      "id": 54321,
+      "name": "Maintenance",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Has the vehicle been regularly serviced?"
+        },
+        {
+          "id": 13579,
+          "text": "Are there any pending maintenance issues?"
+        },
+        {
+          "id": 98765,
+          "text": "Are the tires in good condition?"
+        }
+      ]
+    },
+    {
+      "id": 67890,
+      "name": "Fuel Efficiency",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Does the vehicle have good fuel economy?"
+        },
+        {
+          "id": 13579,
+          "text": "Is the fuel consumption within the desired range?"
+        },
+        {
+          "id": 98765,
+          "text": "Are there any fuel leaks or inefficiencies?"
+        }
+      ]
+    },
+    {
+      "id": 99999,
+      "name": "Technology",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Does the car have advanced safety features?"
+        },
+        {
+          "id": 13579,
+          "text": "Is the infotainment system user-friendly?"
+        },
+        {
+          "id": 98765,
+          "text": "Are there any connectivity issues with Bluetooth or USB?"
+        }
+      ]
+    },
+    {
+      "id": 54321,
+      "name": "Exterior Condition",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Are there any dents or scratches on the exterior?"
+        },
+        {
+          "id": 13579,
+          "text": "Is the paint in good condition?"
+        },
+        {
+          "id": 98765,
+          "text": "Are the headlights and taillights functioning properly?"
+        }
+      ]
+    },
+    {
+      "id": 67890,
+      "name": "Interior Cleanliness",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Is the interior clean and well-maintained?"
+        },
+        {
+          "id": 13579,
+          "text": "Are there any odors inside the vehicle?"
+        },
+        {
+          "id": 98765,
+          "text": "Are the carpets and upholstery in good condition?"
+        }
+      ]
+    },
+    {
+      "id": 99999,
+      "name": "Handling and Control",
+      "questions": [
+        {
+          "id": 24680,
+          "text": "Does the car offer precise steering?"
+        },
+        {
+          "id": 13579,
+          "text": "Are the brakes responsive and effective?"
+        },
+        {
+          "id": 98765,
+          "text": "Is the suspension in good condition?"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+}
+
+android {
+    compileSdk 34
+    namespace 'com.example.mamoontaskapp'
+
+    defaultConfig {
+        applicationId "com.example.mamoontaskapp"
+        minSdk 23
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(20)
+    }
+}
+
+ext {
+    room_version = '2.5.1'
+}
+
+dependencies {
+    // AndroidX Libraries
+    implementation 'androidx.core:core-ktx:1.10.1' // Kotlin extensions for core Android components
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0' // Material Design components
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4' // Layout manager for flexible UI designs
+
+
+    // Kotlin Standard Library
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.8.21'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10'
+
+
+    // Lifecycle Components
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation "androidx.lifecycle:lifecycle-extensions:2.2.0"
+
+    // Room Database
+    kapt "androidx.room:room-compiler:2.6.0-alpha01"
+    implementation 'androidx.room:room-ktx:2.5.1'
+    implementation "androidx.room:room-runtime:2.6.0-alpha01"
+    kapt "androidx.room:room-compiler:$room_version"
+
+
+    // Glide Image Loading
+    kapt 'com.github.bumptech.glide:compiler:4.12.0'
+    implementation 'com.github.bumptech.glide:glide:4.15.1'
+
+
+    // Gson JSON Serialization
+    implementation 'com.google.code.gson:gson:2.9.0'
+
+
+
+    implementation 'androidx.core:core-ktx:1.10.1'
+    implementation 'androidx.core:core-ktx:+'
+    kapt "androidx.lifecycle:lifecycle-compiler:2.6.1"
+    kapt "android.arch.persistence.room:compiler:1.1.1"
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.6.1'
+
+    // Testing Libraries
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+}

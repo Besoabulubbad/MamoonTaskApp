@@ -1,0 +1,7 @@
+<resources>
+    <string name="generate_button">Generate</string>
+    <string name="pause_button">Pause</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="description_edittext">Description</string>
+</resources>
